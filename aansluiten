@@ -1,0 +1,16 @@
+Ik heb componenten als volgt aangeslooten:
+Drukknop op de GND en pin D26.
+LDR op GND, VIN(5V van esp32) en pin D35.
+Read contact op GND en pin D25.
+Led 1(gezien als deur slot) op GND en pin D4. (weerstand van 220 ohm)
+Led 2 op GND en pin D5. (weerstand van 220 ohm)
+Beweging sensor: GND, VIN(5V van esp32), en pin D27.
+De RFID reader is als volgt aangesloten:
+SDA = pin D21
+SCK = pin D18
+MOSI = pin D23
+MISO = pin D19
+RQ = /niks op aangesloten
+GND = GND
+RST = pin D22
+3.3V = 3.3V
